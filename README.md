@@ -9,14 +9,15 @@ Basic speech recognition implementation using PyTorch. The purposes of this proj
   
 ## TODO's:
 
-- [ ] Fetch data
-- [ ] Audio preprocessing
-  - [ ] Spectrogram
-  - [ ] Mel Cepstrum Coefficients
-- [ ] Dataset/Dataloader
-- [ ] Architecture
-- [ ] Training
-- [ ] Evaluation
+- [X] Environment set-up.
+- [X] Fetch data.
+- [ ] Audio preprocessing.
+  - [ ] Spectrogram.
+  - [ ] Mel Cepstrum Coefficients.
+- [ ] Dataset/Dataloader.
+- [ ] Architecture.
+- [ ] Training.
+- [ ] Evaluation.
 
 
 ## Resources
