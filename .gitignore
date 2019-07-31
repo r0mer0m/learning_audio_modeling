@@ -8,6 +8,14 @@ __pycache__/
 
 # Custom folders
 data/
+clean/
+imgs/
+plotting_functions.py
+runs/
+simple_data/
+
+# Custome files
+instruments.csv
 
 # Distribution / packaging
 .Python
