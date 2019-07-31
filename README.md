@@ -1,28 +1,32 @@
 # Speech recognition for Freesound Audio Tagging 2019
 
-## Introduction
+## Summary
 
-Basic speech recognition implementation using PyTorch. The purposes of this project are: 
-
-  1) Gain familiarity on the intersection of speech-based tasks and DL.
-  2) Test the [Verta](https://verta.ai/)'s product on a collaborative environment. 
+The purpose of this notebook is to teach myself audio processing from scratch. This notebooks are resources summarizing and showing example of processing techniques, data augmentation and modeling techniques for audio. Those notebooks are highly based on the references cited below and the toy example is a PyTorch implementation of Sath Adam's series of videos. 
   
 ## TODO's:
 
-- [X] Environment set-up.
-- [X] Fetch data.
-- [ ] Audio preprocessing.
-  - [ ] Spectrogram.
-  - [ ] Mel Cepstrum Coefficients.
-- [ ] Dataset/Dataloader.
-- [ ] Architecture.
-- [ ] Training.
-- [ ] Evaluation.
+- [X] Audio Processing Techniques: Review and Summary.
+- [X] Toy example: Instrument classification.
+  - [X] Data Visualization (fft, bank filters, mfcc).
+  - [X] Pre-processing.
+  - [X] CNN-modeling.
+  - [ ] RNN-modeling.
 
+## References 
 
-## Resources
+*Audio Preprocessing*
 
-Currently, I have no background in signal processing. I will base most of this projects in:
+* http://practicalcryptography.com/miscellaneous/machine-learning/guide-mel-frequency-cepstral-coefficients-mfccs/
 
-* [A series of videos by Seth Adams](https://www.youtube.com/watch?v=Z7YM-HAz-IY&list=PLhA3b2k8R3t2Ng1WW_7MiXeh1pfQJQi_P&index=1).
-* [A solution from previouse audio-tagging kaggle cometition](https://arxiv.org/pdf/1810.12832.pdf).
+* https://haythamfayek.com/2016/04/21/speech-processing-for-machine-learning.html
+
+* https://www.youtube.com/watch?v=Z7YM-HAz-IY&list=PLhA3b2k8R3t2Ng1WW_7MiXeh1pfQJQi_P&index=1
+
+*Data Augmentation*
+
+* https://medium.com/@makcedward/data-augmentation-for-audio-76912b01fdf6
+
+*Further reading*
+
+* https://arxiv.org/pdf/1810.12832.pdf
